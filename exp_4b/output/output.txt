@@ -1,0 +1,43 @@
+===========================================================================
+EXPERIMENT 4.2
+AIM: To implement Support Vector Machine for classification.
+===========================================================================
+
+DATASET LOADED SUCCESSFULLY
+-------------------------------------------------------
+Dataset Shape: (10000, 14)
+
+Selected Features:
+['Rainfall (mm)', 'Temperature (°C)', 'Humidity (%)', 'River Discharge (m³/s)', 'Water Level (m)', 'Elevation (m)', 'Population Density']
+
+Target Variable:
+Flood Occurred
+
+Training Samples: 8000
+Testing Samples : 2000
+
+SVM MODEL TRAINED SUCCESSFULLY
+
+============================================================
+SVM CLASSIFICATION RESULTS
+============================================================
+
+Kernel    : RBF
+C         : 1.0
+Gamma     : scale
+
+Accuracy  : 0.5045
+Precision : 0.5091575091575091
+Recall    : 0.5499505440158259
+F1 Score  : 0.5287684260580123
+
+============================================================
+CONFUSION MATRIX
+============================================================
+[[453 536]
+ [455 556]]
+
+===========================================================================
+RESULT
+===========================================================================
+Thus, Support Vector Machine was successfully implemented for flood occurrence classification.

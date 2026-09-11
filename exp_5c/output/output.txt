@@ -1,0 +1,80 @@
+===========================================================================
+EXPERIMENT 5.3
+AIM: To implement Hierarchical clustering.
+===========================================================================
+
+DATASET LOADED SUCCESSFULLY
+-------------------------------------------------------
+Dataset Shape: (319, 39)
+
+Number of Missing Values: 0
+
+Number of Clustering Features: 32
+
+FEATURE STANDARDIZATION COMPLETED
+
+============================================================
+HIERARCHICAL CLUSTERING
+============================================================
+
+Creating dendrogram using Ward linkage...
+
+============================================================
+SILHOUETTE ANALYSIS
+============================================================
+Clusters = 2 | Silhouette Score = 0.20157750288721496
+Clusters = 3 | Silhouette Score = 0.1400179686505268
+Clusters = 4 | Silhouette Score = 0.09753549310162185
+Clusters = 5 | Silhouette Score = 0.09715852180984251
+Clusters = 6 | Silhouette Score = 0.09048431039023742
+Clusters = 7 | Silhouette Score = 0.09445816551381153
+Clusters = 8 | Silhouette Score = 0.08001766207072993
+Clusters = 9 | Silhouette Score = 0.09421651172624662
+Clusters = 10 | Silhouette Score = 0.09740633577882471
+
+Selected Optimal Number of Clusters: 2
+Best Silhouette Score: 0.20157750288721496
+
+============================================================
+HIERARCHICAL CLUSTERING RESULTS
+============================================================
+
+Optimal Number of Clusters: 2
+Final Silhouette Score: 0.20157750288721496
+
+Cluster Sizes:
+Cluster
+0    162
+1    157
+Name: count, dtype: int64
+
+============================================================
+CLUSTER SUMMARY
+============================================================
+           Age  Height  ...  Hemoglobin (HGB)  Vitamin D
+Cluster                 ...                             
+0        47.15  174.52  ...             15.64      22.49
+1        49.02  159.55  ...             13.16      20.28
+
+[2 rows x 32 columns]
+
+============================================================
+PCA VISUALIZATION
+============================================================
+PC1 Variance: 0.2753530472814754
+PC2 Variance: 0.19880443466167338
+Total Variance: 0.4741574819431488
+
+============================================================
+CLUSTER VS GALLSTONE STATUS
+============================================================
+Gallstone Status   0   1
+Cluster                 
+0                 95  67
+1                 66  91
+
+===========================================================================
+RESULT
+===========================================================================
+Thus, Hierarchical clustering was successfully implemented on the Gallstone medical dataset.
+The optimal number of clusters was determined using Silhouette Analysis.

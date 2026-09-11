@@ -1,0 +1,65 @@
+==========================================================================================
+PROGRAM 1 : LOAD AND VIEW THE DATASET
+==========================================================================================
+
+Dataset Shape : (268, 21)
+
+Selected Columns :
+['Song Title', 'Album Title', 'Artist Name 1', 'Artist Name 2', 'Artist Name 3']
+
+==========================================================================================
+FIRST 10 RECORDS
+==========================================================================================
+                          Song Title  ...       Artist Name 3
+0                Aanamale Kaatukulla  ...     Palani Bharathi
+1    Aasa Kooda (From "Think Indie")  ...                 NaN
+2              Aasa Kooda x Kamatchi  ...                 NaN
+3  Aasa Orave (From "Lubber Pandhu")  ...    Attakathi Dinesh
+4          Aasa Pulla (From "Youth")  ...              Eshwar
+5                       Aasai Dhosai  ...                 NaN
+6                   Aathula Oru Kaal  ...          Thalapathi
+7                     Adada Mazhaida  ...           Saindhavi
+8                          Adi Athee  ...                 NaN
+9                         Adi Raangi  ...  Anitha Karthikeyan
+
+[10 rows x 5 columns]
+
+==========================================================================================
+DATASET INFORMATION
+==========================================================================================
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 268 entries, 0 to 267
+Data columns (total 5 columns):
+ #   Column         Non-Null Count  Dtype 
+---  ------         --------------  ----- 
+ 0   Song Title     268 non-null    object
+ 1   Album Title    268 non-null    object
+ 2   Artist Name 1  268 non-null    object
+ 3   Artist Name 2  214 non-null    object
+ 4   Artist Name 3  161 non-null    object
+dtypes: object(5)
+memory usage: 10.6+ KB
+
+==========================================================================================
+SUMMARY STATISTICS
+==========================================================================================
+              count unique                  top freq
+Song Title      268    263         Thean Kudika    2
+Album Title     268    228        Hits Of Vijay   10
+Artist Name 1   268    128  B. Ajaneesh Loknath   15
+Artist Name 2   214    160              Karthik    6
+Artist Name 3   161    121            Saindhavi    4
+
+==========================================================================================
+NULL VALUES
+==========================================================================================
+Song Title         0
+Album Title        0
+Artist Name 1      0
+Artist Name 2     54
+Artist Name 3    107
+dtype: int64
+
+==========================================================================================
+PROGRAM EXECUTED SUCCESSFULLY
+==========================================================================================

@@ -1,0 +1,44 @@
+===========================================================================
+EXPERIMENT 4.1
+AIM: To implement Bayesian Logistic Regression for classification.
+===========================================================================
+
+DATASET LOADED SUCCESSFULLY
+-------------------------------------------------------
+Dataset Shape: (10000, 14)
+
+Selected Features:
+['Rainfall (mm)', 'Temperature (°C)', 'Humidity (%)', 'River Discharge (m³/s)', 'Water Level (m)', 'Elevation (m)', 'Population Density']
+
+Target Variable:
+Flood Occurred
+
+Training Samples: 8000
+Testing Samples : 2000
+
+============================================================
+BAYESIAN SAMPLING RESULTS
+============================================================
+
+Total Samples     : 5000
+Burn-in Samples   : 1000
+Posterior Samples : 4000
+Acceptance Rate   : 0.015
+
+Posterior Mean Coefficients:
+[ 0.02634598 -0.00930349 -0.02202413  0.06919307 -0.00136243 -0.023329
+ -0.01408969  0.00214084]
+
+============================================================
+CLASSIFICATION RESULTS
+============================================================
+
+Accuracy  : 0.5125
+Precision : 0.5145867098865479
+Recall    : 0.6280909990108803
+F1 Score  : 0.5657015590200446
+
+===========================================================================
+RESULT
+===========================================================================
+Thus, Bayesian Logistic Regression was successfully implemented for flood occurrence classification.

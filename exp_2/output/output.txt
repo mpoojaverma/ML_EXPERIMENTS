@@ -1,0 +1,149 @@
+==========================================================================================
+PROGRAM 2 : SUMMARY, STATISTICS AND VISUALIZATION
+==========================================================================================
+
+==========================================================================================
+DATASET SUMMARY
+==========================================================================================
+
+Total Songs   : 268
+Total Columns : 21
+Dataset Shape : (268, 21)
+
+==========================================================================================
+COLUMN DATA TYPES
+==========================================================================================
+Video ID          object
+Song Title        object
+Album Title       object
+Artist Name 1     object
+Artist Name 2     object
+Artist Name 3     object
+Artist Name 4     object
+Artist Name 5     object
+Artist Name 6     object
+Artist Name 7     object
+Artist Name 8     object
+Artist Name 9     object
+Artist Name 10    object
+Artist Name 11    object
+Artist Name 12    object
+Artist Name 13    object
+Artist Name 14    object
+Artist Name 15    object
+Artist Name 16    object
+Artist Name 17    object
+Artist Name 18    object
+
+==========================================================================================
+FIRST 3 SONG TITLES
+==========================================================================================
+            Aanamale Kaatukulla
+Aasa Kooda (From "Think Indie")
+          Aasa Kooda x Kamatchi
+
+==========================================================================================
+LAST 3 RECORDS
+==========================================================================================
+   Video ID                       Song Title                      Album Title Artist Name 1   Artist Name 2 Artist Name 3 Artist Name 4 Artist Name 5 Artist Name 6 Artist Name 7 Artist Name 8 Artist Name 9 Artist Name 10 Artist Name 11 Artist Name 12 Artist Name 13 Artist Name 14 Artist Name 15 Artist Name 16 Artist Name 17 Artist Name 18
+JMwMxynt2Qo Yendi Vittu Pona (From "Dragon") Yendi Vittu Pona (From "Dragon")    Leon James Silambarasan TR      Ko Sesha           NaN           NaN           NaN           NaN           NaN           NaN            NaN            NaN            NaN            NaN            NaN            NaN            NaN            NaN            NaN
+OTmdzHCS338  Yeno Indru (From "Think Indie")  Yeno Indru (From "Think Indie")       Rakhooo Anand Kashinath       Vaisagh           NaN           NaN           NaN           NaN           NaN           NaN            NaN            NaN            NaN            NaN            NaN            NaN            NaN            NaN            NaN
+M6jRGdR6Yro                       Sweet Mint                       Sweet Mint     The Milan             NaN           NaN           NaN           NaN           NaN           NaN           NaN           NaN            NaN            NaN            NaN            NaN            NaN            NaN            NaN            NaN            NaN
+
+==========================================================================================
+NUMBER OF UNIQUE VALUES
+==========================================================================================
+Video ID          268
+Song Title        263
+Album Title       228
+Artist Name 1     128
+Artist Name 2     160
+Artist Name 3     121
+Artist Name 4      84
+Artist Name 5      51
+Artist Name 6      27
+Artist Name 7      16
+Artist Name 8       7
+Artist Name 9       4
+Artist Name 10      3
+Artist Name 11      3
+Artist Name 12      1
+Artist Name 13      1
+Artist Name 14      1
+Artist Name 15      1
+Artist Name 16      1
+Artist Name 17      1
+Artist Name 18      1
+
+==========================================================================================
+NULL VALUES
+==========================================================================================
+Video ID            0
+Song Title          0
+Album Title         0
+Artist Name 1       0
+Artist Name 2      54
+Artist Name 3     107
+Artist Name 4     161
+Artist Name 5     196
+Artist Name 6     232
+Artist Name 7     249
+Artist Name 8     259
+Artist Name 9     263
+Artist Name 10    264
+Artist Name 11    264
+Artist Name 12    267
+Artist Name 13    267
+Artist Name 14    267
+Artist Name 15    267
+Artist Name 16    267
+Artist Name 17    267
+Artist Name 18    267
+
+==========================================================================================
+SUMMARY STATISTICS
+==========================================================================================
+               count unique                  top freq
+Video ID         268    268          M6jRGdR6Yro    1
+Song Title       268    263         Thean Kudika    2
+Album Title      268    228        Hits Of Vijay   10
+Artist Name 1    268    128  B. Ajaneesh Loknath   15
+Artist Name 2    214    160              Karthik    6
+Artist Name 3    161    121            Saindhavi    4
+Artist Name 4    107     84        Rishab Shetty    6
+Artist Name 5     72     51       Sapthami Gowda    4
+Artist Name 6     36     27   Suraj Venjaramoodu    4
+Artist Name 7     19     16     Meenakshi Dinesh    2
+Artist Name 8      9      7      Priyanshi Yadav    2
+Artist Name 9      5      4      Venkatesh Menon    2
+Artist Name 10     4      3       Rabiya Khatoon    2
+Artist Name 11     4      3    Ramya Ranganathan    2
+Artist Name 12     1      1         Mandira Bedi    1
+Artist Name 13     1      1                  Lal    1
+Artist Name 14     1      1              Prabhas    1
+Artist Name 15     1      1             Supreeth    1
+Artist Name 16     1      1      Vennela Kishore    1
+Artist Name 17     1      1     Prakash Belavadi    1
+Artist Name 18     1      1        Evelyn Sharma    1
+
+==========================================================================================
+MEMORY USAGE
+==========================================================================================
+238145 bytes
+
+==========================================================================================
+ALL GRAPHS GENERATED SUCCESSFULLY
+==========================================================================================
+
+Output files saved in the 'output' folder:
+1. graph_1_top_artists_horizontal.png
+2. graph_2_top_artists_vertical.png
+3. graph_3_album_distribution.png
+4. graph_4_songs_per_artist_histogram.png
+5. graph_5_top_albums.png
+6. graph_6_artist_popularity.png
+7. graph_7_artist_song_count_boxplot.png
+
+==========================================================================================
+PROGRAM EXECUTED SUCCESSFULLY
+==========================================================================================

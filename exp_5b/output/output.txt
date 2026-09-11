@@ -1,0 +1,103 @@
+===========================================================================
+EXPERIMENT 5.2
+AIM: To implement Gaussian Mixture Model for clustering.
+===========================================================================
+
+DATASET LOADED SUCCESSFULLY
+-------------------------------------------------------
+Dataset Shape: (319, 39)
+
+Number of Missing Values: 0
+
+Number of Clustering Features: 32
+
+FEATURE STANDARDIZATION COMPLETED
+
+============================================================
+GAUSSIAN MIXTURE MODEL SELECTION
+============================================================
+Components = 2 | BIC = 16721.503199278806 | AIC = 12500.723973056995
+Components = 3 | BIC = 15253.718294472656 | AIC = 8920.666859588548
+Components = 4 | BIC = 15111.73115219098 | AIC = 6666.407508644574
+Components = 5 | BIC = 17040.96928097191 | AIC = 6483.373428763203
+Components = 6 | BIC = 17676.530014223037 | AIC = 5006.661953352034
+Components = 7 | BIC = 18912.574690085938 | AIC = 4130.434420552641
+Components = 8 | BIC = 18789.645252013725 | AIC = 1895.2327738181275
+Components = 9 | BIC = 19966.96328290183 | AIC = 960.278596043936
+Components = 10 | BIC = 21559.606611122123 | AIC = 440.64971560193044
+
+Best Components according to BIC: 4
+Best Components according to AIC: 10
+
+Selected Number of Components: 4
+
+============================================================
+GMM CLUSTERING RESULTS
+============================================================
+
+Selected Components: 4
+
+BIC: 15111.73115219098
+AIC: 6666.407508644574
+
+Silhouette Score: 0.10709521009007653
+
+Cluster Sizes:
+Cluster
+0     41
+1    116
+2     40
+3    122
+Name: count, dtype: int64
+
+============================================================
+CLUSTER SUMMARY
+============================================================
+           Age  Height  ...  Hemoglobin (HGB)  Vitamin D
+Cluster                 ...                             
+0        46.83  172.88  ...             15.35      21.97
+1        49.16  159.60  ...             13.23      20.70
+2        48.50  159.18  ...             12.90      19.62
+3        47.30  175.03  ...             15.74      22.46
+
+[4 rows x 32 columns]
+
+============================================================
+PCA VISUALIZATION
+============================================================
+PC1 Variance: 0.2753530472814754
+PC2 Variance: 0.19880443466167338
+Total Variance: 0.4741574819431488
+
+============================================================
+CLUSTER VS GALLSTONE STATUS
+============================================================
+Gallstone Status   0   1
+Cluster                 
+0                 22  19
+1                 56  60
+2                 11  29
+3                 72  50
+
+============================================================
+SAMPLE CLUSTER MEMBERSHIP PROBABILITIES
+============================================================
+   Cluster 0 Probability  ...  Cluster 3 Probability
+0                 0.0000  ...                 1.0000
+1                 0.0000  ...                 1.0000
+2                 0.0000  ...                 1.0000
+3                 0.9991  ...                 0.0009
+4                 0.0000  ...                 1.0000
+5                 1.0000  ...                 0.0000
+6                 1.0000  ...                 0.0000
+7                 0.0000  ...                 1.0000
+8                 0.0000  ...                 1.0000
+9                 0.0000  ...                 1.0000
+
+[10 rows x 4 columns]
+
+===========================================================================
+RESULT
+===========================================================================
+Thus, Gaussian Mixture Model clustering was successfully implemented on the Gallstone medical dataset.
+The number of mixture components was selected using the Bayesian Information Criterion (BIC).

@@ -1,0 +1,30 @@
+======================================================================
+EXPERIMENT 3
+AIM: To implement Linear Regression to perform prediction.
+======================================================================
+
+DATASET LOADED SUCCESSFULLY
+--------------------------------------------------
+Dataset Shape: (10000, 14)
+
+Selected Variables:
+Independent Variable : River Discharge (m³/s)
+Dependent Variable   : Water Level (m)
+
+Training Samples: 8000
+Testing Samples : 2000
+
+============================================================
+LINEAR REGRESSION RESULTS
+============================================================
+
+Intercept  : 5.102176903423288
+Coefficient: -3.02256427019501e-05
+
+Mean Squared Error: 8.202276840015946
+R2 Score          : -0.000959963380943174
+
+======================================================================
+RESULT
+======================================================================
+Thus, the implementation of Linear Regression to perform prediction has been successfully executed.
