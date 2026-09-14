@@ -1,0 +1,69 @@
+================================================================================
+EXPERIMENT 6
+AIM: To implement Principal Component Analysis (PCA) for dimensionality reduction.
+================================================================================
+
+DATASET LOADED SUCCESSFULLY
+--------------------------------------------------
+Dataset Shape: (1298, 12)
+Number of Columns: 12
+
+FEATURES USED FOR PCA
+--------------------------------------------------
+pm10
+pm2_5
+carbon_monoxide
+nitrogen_dioxide
+sulphur_dioxide
+ozone
+aerosol_optical_depth
+dust
+uv_index
+
+MISSING VALUES
+--------------------------------------------------
+pm10                     3
+pm2_5                    3
+carbon_monoxide          3
+nitrogen_dioxide         3
+sulphur_dioxide          3
+ozone                    3
+aerosol_optical_depth    3
+dust                     3
+uv_index                 3
+dtype: int64
+
+Missing values after median imputation:
+0
+
+FEATURE STANDARDIZATION
+--------------------------------------------------
+StandardScaler applied successfully.
+
+======================================================================
+EXPLAINED VARIANCE
+======================================================================
+PC1: Explained Variance = 0.430684    Cumulative = 0.430684
+PC2: Explained Variance = 0.217254    Cumulative = 0.647938
+PC3: Explained Variance = 0.131171    Cumulative = 0.779109
+PC4: Explained Variance = 0.087709    Cumulative = 0.866818
+PC5: Explained Variance = 0.059687    Cumulative = 0.926505
+PC6: Explained Variance = 0.030607    Cumulative = 0.957113
+PC7: Explained Variance = 0.028999    Cumulative = 0.986112
+PC8: Explained Variance = 0.009002    Cumulative = 0.995114
+PC9: Explained Variance = 0.004886    Cumulative = 1.000000
+
+======================================================================
+COMPONENT SELECTION
+======================================================================
+Components required for 90% variance: 5
+Components required for 95% variance: 6
+
+SELECTED COMPONENTS: 6
+Total Retained Variance: 0.9571129345543344
+
+======================================================================
+RESULT
+======================================================================
+PCA successfully reduced the 9-dimensional air-quality feature space to 6 principal components while retaining at least 95% of the variance.
+======================================================================
