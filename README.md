@@ -6,68 +6,19 @@ Each experiment is organized in a separate folder containing its Python implemen
 
 ---
 
-## Repository Structure
+## Experiments
 
-```text
-ML_EXPERIMENTS/
-│
-├── README.md
-├── requirements.txt
-│
-├── exp_1/
-│   ├── exp_1.py
-│   ├── music library songs.csv
-│   ├── output/
-│   └── README.md
-│
-├── exp_2/
-│   ├── exp_2.py
-│   ├── music library songs.csv
-│   ├── output/
-│   └── README.md
-│
-├── exp_3/
-│   ├── exp_3.py
-│   ├── flood_risk_dataset_india.csv
-│   ├── output/
-│   └── README.md
-│
-├── exp_4a/
-│   ├── exp_4a.py
-│   ├── flood_risk_dataset_india.csv
-│   ├── output/
-│   └── README.md
-│
-├── exp_4b/
-│   ├── exp_4b.py
-│   ├── flood_risk_dataset_india.csv
-│   ├── output/
-│   └── README.md
-│
-├── exp_5a/
-│   ├── exp_5a.py
-│   ├── gallstone.csv
-│   ├── output/
-│   └── README.md
-│
-├── exp_5b/
-│   ├── exp_5b.py
-│   ├── gallstone.csv
-│   ├── output/
-│   └── README.md
-│
-├── exp_5c/
-│   ├── exp_5c.py
-│   ├── gallstone.csv
-│   ├── output/
-│   └── README.md
-│
-└── exp_6/
-    ├── exp_6.py
-    ├── air_quality_historical.csv
-    ├── output/
-    └── README.md
-```
+| Experiment | Description |
+|---|---|
+| [Exp 1](./exp_1/) | Load and View a Dataset |
+| [Exp 2](./exp_2/) | Summary and Statistical Analysis of a Dataset |
+| [Exp 3](./exp_3/) | Linear Regression |
+| [Exp 4a](./exp_4a/) | Bayesian Logistic Regression |
+| [Exp 4b](./exp_4b/) | Support Vector Machine |
+| [Exp 5a](./exp_5a/) | K-Means Clustering |
+| [Exp 5b](./exp_5b/) | Gaussian Mixture Model |
+| [Exp 5c](./exp_5c/) | Hierarchical Clustering |
+| [Exp 6](./exp_6/) | Principal Component Analysis |
 
 Each experiment folder contains:
 
